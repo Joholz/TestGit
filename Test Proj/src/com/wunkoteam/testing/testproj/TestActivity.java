@@ -41,14 +41,7 @@ public class TestActivity extends PreferenceActivity {
                }
 
        });
-       Button showPrefs = (Button) findViewById(R.id.showButton);
-       showPrefs.setOnClickListener(new View.OnClickListener() {
-               public void onClick(View view) {
-                   Intent myIntent = new Intent(getApplicationContext(), ShowPrefs.class);
-                   startActivityForResult(myIntent, 0);
-               }
-
-       });
+       //just took a chunk of code out to try compare mode
         
  
     }
