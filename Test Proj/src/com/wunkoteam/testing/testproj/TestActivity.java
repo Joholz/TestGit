@@ -25,6 +25,9 @@ public class TestActivity extends PreferenceActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        // making a simple toast to see this this commit thing does a good job
+        Toast.makeText(this, "this is a small toast thing",Toast.LENGTH_LONG);
         try{
         setContentView(R.layout.main);
         }catch(Exception e){
@@ -38,7 +41,6 @@ public class TestActivity extends PreferenceActivity {
                }
 
        });
-       
        Button showPrefs = (Button) findViewById(R.id.showButton);
        showPrefs.setOnClickListener(new View.OnClickListener() {
                public void onClick(View view) {
