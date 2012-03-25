@@ -43,6 +43,8 @@ public class TestActivity extends PreferenceActivity {
        });
        //just took a chunk of code out to try compare mode
         
+        /// adding a comment here
+        
  
     }
     
